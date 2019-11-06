@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Spendee</string>
+    <string name="desc">""</string>
+    <string name="balance">"Total Balance"</string>
+    <string name="tag">"Your Spendee"</string>
+    <string name="total">"10000$"</string>
+    <string name="nav_income">Add Income</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_expenditure">Add expenditure</string>
+    <string name="expenditure_group1">"FOOD"</string>
+    <string name="expenditure_group2">"LEISURE"</string>
+    <string name="expenditure_group3">"TRAVEL"</string>
+    <string name="expenditure_group4">"CULTURE"</string>
+    <string name="expenditure_group5">"OTHER"</string>
+    <string name="button_name">"ADD EXPENDITURE"</string>
+    <string name="button_income_name">"ADD INCOME"</string>
+    <string name="txt_field1">"Label"</string>
+    <string name="txt_field2">"YYYY-MM-DD"</string>
+    <string name="txt_field3">"eg. 300"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_income">IncomeActivity</string>
+    <string name="title_activity_expenditure">ExpenditureActivity</string>
+    <string name="expenditures">Expenditures</string>
+    <string name="incomes">Incomes</string>
+</resources>

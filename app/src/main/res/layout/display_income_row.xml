@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="75dp" >
+
+    <TextView
+        android:id="@+id/t_dateIncome"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="2018/1/1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:fontFamily="@font/actor" />
+
+    <TextView
+        android:id="@+id/t_labelIncome"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/t_dateIncome"
+        android:gravity="center"
+        android:text="Mobile"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:fontFamily="@font/actor" />
+
+    <TextView
+        android:id="@+id/t_categoryIncome"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/t_labelIncome"
+        android:gravity="center"
+        android:text="Other"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:fontFamily="@font/actor" />
+
+    <TextView
+        android:id="@+id/t_amountIncome"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/t_categoryIncome"
+        android:gravity="center"
+        android:text="50EUR"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:fontFamily="@font/actor" />
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="170dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/moneybag" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/tag"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    app:fontFamily="sans-serif-condensed">
+
+                </TextView>
+
+               <!-- <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    app:fontFamily="sans-serif-condensed"
+                    android:text="@string/total" />-->
+
+            </LinearLayout>
+
+
+    <!--<TextView
+        android:id="@+id/textView2"
+        android:layout_width="132dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="20dp"
+        android:text="Recent activity"
+        android:textColor="@color/grey"
+        android:textSize="15sp" />-->
+
+   <!--- <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="307dp"
+        android:layout_height="177dp"
+        android:layout_below="@+id/linearLayout1"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/nameField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Surname" />
+
+                <EditText
+                    android:id="@+id/surnameField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="58dp"
+        android:text="LOGIN"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+</ScrollView>

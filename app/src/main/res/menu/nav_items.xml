@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_income"
+        android:icon="@drawable/ic_add_circle"
+        android:title="@string/nav_income" />
+    <item
+        android:id="@+id/nav_expenditure"
+        android:icon="@drawable/ic_remove_circle"
+        android:title="@string/nav_expenditure" />
+</menu>
